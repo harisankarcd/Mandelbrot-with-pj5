@@ -2,10 +2,7 @@ function setup() {
   createCanvas(360,360);
   pixelDensity(1);
  
-  var minx;
-  var maxx;
-  var miny;
-  var mazy;
+
   minSlider=createSlider(-15,0,-2.5,0.01);
   maxSlider=createSlider(0,15,2.5,0.01);
   
