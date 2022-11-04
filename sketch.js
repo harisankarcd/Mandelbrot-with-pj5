@@ -47,8 +47,9 @@ function draw() {
         
         var pix=(x+y*width)*4;
         pixels[pix+0]=bright; 
-        pixels[pix+1]=bright;
-        pixels[pix+2]=bright;
+        
+        pixels[pix+1]=120;
+        pixels[pix+2]=75;
         pixels[pix+3]=255;
         
       }
