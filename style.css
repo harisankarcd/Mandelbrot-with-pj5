@@ -1,7 +1,9 @@
 html, body {
+  position:relative;
   margin: 0;
-  padding: 0;
+  padding:10% 0 0 15%;
 }
+  
 canvas {
   display: block;
 }
